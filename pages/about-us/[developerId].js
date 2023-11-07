@@ -1,5 +1,5 @@
-import { useRouter } from "next/router";
 // our-domain.com/about-us/developer
+import { useRouter } from "next/router";
 
 function DevDetail() {
   const details = [
@@ -28,9 +28,11 @@ function DevDetail() {
     }
   }
   return (
-    <h1>
-      {newName} is a {newRole}.
-    </h1>
+    <div>
+      <h1>Developer Details</h1>
+      <p>Name: {newName}</p>
+      <p>Role: {newRole}</p>
+    </div>
   );
 }
 
