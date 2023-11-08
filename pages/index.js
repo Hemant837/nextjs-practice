@@ -7,7 +7,7 @@ const DUMMY_MEETUPS = [
     image:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Maison_Carree_in_Nimes_%2816%29.jpg/1280px-Maison_Carree_in_Nimes_%2816%29.jpg",
     address: "Some address 5, 12345 Some City",
-    description: "This is a first meetup!",
+    description: "This is my first meetup!",
   },
   {
     id: "m2",
@@ -15,7 +15,7 @@ const DUMMY_MEETUPS = [
     image:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Maison_Carree_in_Nimes_%2816%29.jpg/1280px-Maison_Carree_in_Nimes_%2816%29.jpg",
     address: "Some address 6, 67890 Some City",
-    description: "This is a second meetup!",
+    description: "This is my second meetup!",
   },
 ];
 
