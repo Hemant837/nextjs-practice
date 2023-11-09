@@ -1,6 +1,6 @@
 // /api/new-meetup
 // POST / api/new-meetups
-// Btvq09ojsnnntaCO
+// QGn6jIsRjiuqQzfY
 
 import { MongoClient } from "mongodb";
 
@@ -9,7 +9,7 @@ async function handler(req, res) {
     const data = req.body;
 
     const client = await MongoClient.connect(
-      "mongodb+srv://verma:Btvq09ojsnnntaCO@clustor0.irkizrs.mongodb.net/meetups?retryWrites=true&w=majority"
+      "mongodb+srv://hemant:QGn6jIsRjiuqQzfY@cluster0.9kdwhs0.mongodb.net/meetups?retryWrites=true&w=majority"
     );
     const db = client.db();
 
